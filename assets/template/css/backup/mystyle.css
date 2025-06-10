@@ -1,0 +1,149 @@
+.profile .profile-image img {
+    width: 100px;
+    border: 0px solid #FFF;
+    border-radius:0;
+}
+.x-navigation > li.xn-logo > a:first-child{
+	background: none;
+	background-color: #282828;
+	color:white;
+	text-indent:0;
+	font-weight: bold;
+	font-size: 20px;
+	text-align:center;
+	text-transform: uppercase;
+	line-height: 45px;
+	
+}
+
+.smib{
+	font-size: 30px;
+	color:white;
+	margin: 30px;
+}
+
+/* style pagination */
+.dataTables_paginate.paging_bootstrap.pagination li {
+    float:left;
+    margin:0 1px;
+    border:1px solid #ddd;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    list-style: none;
+}
+.dataTables_paginate.paging_bootstrap.pagination li.disabled a {
+    color:#c7c7c7;
+}
+.dataTables_paginate.paging_bootstrap.pagination li a {
+    color:#797979;
+    padding:5px 10px;
+    display:inline-block;
+}
+.dataTables_paginate.paging_bootstrap.pagination li:hover a,.dataTables_paginate.paging_bootstrap.pagination li.active a {
+    color:#797979;
+    background:#eee;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.dataTables_paginate.paging_bootstrap.pagination {
+    float:right;
+    margin-top:-5px;
+    margin-bottom:15px;
+}
+.dataTable tr:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.panel-body .panel-body-image{
+	background-color: red;
+}
+.trans{
+	background-color: transparent;
+}
+
+
+/* HALAMAN LOGIN */
+.login-container.lightmode{
+    background: #33414E;
+}
+
+.login-container.lightmode .login-box .login-body .form-control{
+    background: ;
+    color:white;
+}
+
+.login-container .login-box .login-logo {
+  border:2px solid black;  
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  width: 100%;
+  float: left;
+  padding: 5px 0 55px 0;
+  margin-bottom:0;
+}
+
+.login-container .login-box .login-footer {
+  background-color: black;  
+  width: 100%;
+  float: left;
+  padding: 15px;
+  color: #FFF;
+}
+.login-container .login-box .login-footer a {
+  color: #FFF;
+}
+.login-container .login-box .login-body{
+    border-radius: 0;
+    box-shadow: 9px 12px 35px #888888;
+}
+
+/* NAVBAR */
+.activenav{
+    background-color: #337AB7;
+}
+.x-navigation li > ul li > a{
+  color: white;
+}
+
+.profile-data-title a {
+  color: #337AB7;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/*NAVCOL*/
+.x-navigation > li:last-child > a{
+  -webkit-border-radius: 0px 0px 0px 0px;
+          border-radius: 0px 0px 0px 0px;
+}
+
+
+.tulisan{
+    margin: 3px;
+    margin-top: 20px;  
+}
+
+.tombol{
+    margin: 3px;
+    margin-top: 20px;
+}
+              
+@media (max-width:992px){
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+    
+    .col-md-3 {
+        width: 25%;
+        float: left;
+    }
+    
+    .col-md-8 {
+        width: 66.66666667%;
+        float: left;
+    }
+}

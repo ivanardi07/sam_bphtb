@@ -1,0 +1,167 @@
+ CUSTOM  CSS 27 JANUARI 2015 */
+.x-navigation > li.xn-profile .profile-data-name {
+    color: #337AB7;
+}
+.page-container {
+    background: none repeat scroll 0% 0% #ECF0F1;
+}
+
+/* FORM LOGIN */
+
+.login-container {
+
+    background: repeat scroll left top white;
+}
+
+.login-container .login-box .login-logo {
+	border: 2px solid #337AB7;
+	background: #337AB7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.login-container .login-box .login-footer {
+	background-color: #337AB7;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#formlogin {
+	width: 100%;
+	/*height: 300px;*/
+	/* background-color: yellow; */
+	box-shadow: 9px 12px 35px #888888;
+}
+
+.login-container .login-box .login-body .form-control {
+	border: 0px;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 10px 15px;
+	color: white;
+	line-height: 20px;
+	height: auto;
+}
+
+.form-control[disabled], .form-control[readonly], .form-control[disabled]:focus, .form-control[readonly]:focus {
+  color: #000;
+}
+
+
+/* Mengganti warna huruf tabel  dan warna breadcrumb */
+
+.breadcrumb li, .breadcrumb li a {
+  font-size: 11px;
+  line-height: 12px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.breadcrumb li:hover, .breadcrumb li a:hover {
+  color: #000000;
+}
+
+.breadcrumb li:last-child {
+  color: #000000;
+}
+
+table, .table{
+	color: #000000;
+}
+
+table > thead > tr > th {
+   color: #000000!important; 
+}
+
+.inputform{
+	color: #000000!important;
+}
+
+.x-navigation > li.xn-profile .profile-data-name {
+  color: rgb(57, 133, 185);
+}
+
+/* 
+	BIRU = #337AB7
+	BIRU GELAP = #1B4F74
+*/
+
+#wa-widget-send-button {
+    margin: 0 0 50px 0 !important;
+    position: fixed !important;
+    z-index: 16000160 !important;
+    bottom: 0 !important;
+    text-align: center !important;
+    height: 50px;
+    min-width: 50px;
+    visibility: visible;
+    transition: none !important;
+    right: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wa-widget-send-button > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #4dc247;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wa-messenger-svg-whatsapp {
+    fill: white;
+    width: 41px;
+    height: 50px;
+    stroke: none;
+}
+
+.modal .form-group {
+  display: flex;
+}
+
+.box-footer {
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  float: left;
+}
+
+.x-navigation ul.pull-right {
+  width: auto;
+}
+
+.panel-body form.table-responsive {
+  float: left;
+  width: 100%;
+}
+
+.close {
+  color: #fff!important;
+  opacity: 1;
+}
+
+@media (max-width:789px){
+	#wa-widget-send-button{
+		width: 100%;
+		left: 0;
+	}
+
+  .x-navigation ul.pull-right {
+    width: 100%;
+    background: #2a6d9b;
+  }
+
+  .modal .form-group {
+    display: unset;
+  }
+
+  .modal .control-label {
+      margin: 15px 0 0;
+  }
+}

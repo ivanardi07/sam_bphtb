@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 11px Arial, Arial, sans-serif;
+    /* background-color: #EEE; */
+}
+
+#header {
+    background-color: #336699;
+    color: #FFF;
+    border-bottom: 2px solid #FFCC00;
+}
+
+#head_logo {
+    float: left;
+    padding: 10px;
+}
+
+#head_text {
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#mother {
+    width: 950px;
+    margin: 20px auto;
+    background-color: #FFF;
+    border: 1px solid #999;
+    box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px #666;
+    -moz-box-shadow: 0 0 5px #666;
+}
+
+#login {
+    margin: 30px auto;
+    width: 300px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px #666;
+    -moz-box-shadow: 0 0 5px #666;
+}
+
+#login_c {
+    padding: 10px;
+}
+
+#login h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    border-bottom: 3px solid #FFCC00;
+}
+
+.note_text {
+    background-color: #0099FF;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.warn_text {
+    background-color: #CC0000;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+#child {}
+
+#child_c {}
+
+#child_left {
+    float: left;
+    width: 210px;
+    border-right: 1px solid #BBB;
+    background: url("../images/navcol_bg.gif") right #E5E5E5 repeat-y;
+}
+
+.child_left_c {
+    padding: 10px;
+}
+
+.child_left_c a {
+    text-decoration: none;
+    color: #0099FF;
+}
+
+.child_left_c a:hover {
+    text-decoration: none;
+    color: #336699;
+}
+
+.child_left_c h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+.child_left_c h2 {
+    font-size: 14px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+#child_right {
+    float: right;
+    width: 730px;
+}
+
+#child_right h1 {
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    color: #336699;
+    border-bottom: 3px solid #CCC;
+}
+
+#child_right h1 a {
+    border: 0;
+}
+
+.child_right_c {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.child_right_c a {
+    text-decoration: none;
+    color: #0099FF;
+    border-bottom: 1px solid #999;
+}
+
+.child_right_c a:hover {
+    text-decoration: none;
+    color: #336699;
+    border-bottom: 1px solid #FF9900;
+}
+
+.child_right_c h1 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    margin: 0 0 10px 0;
+}
+
+.child_right_c h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #CCC;
+}
+
+.main_menu {
+    margin: 10px 0;
+}
+
+ul.main_menu {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul.main_menu li {
+    margin: 2px 0;
+}
+
+ul.main_menu a {
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+ul.main_menu a:hover {
+    border-left: 3px solid #FF9900;
+    padding-left: 5px;
+}
+
+.nav_box {
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+}
+
+.inputform table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.inputform td {
+    padding: 2px;
+    vertical-align: top;
+}
+
+.inputform tr:hover {
+    background-color: #EEE;
+}
+
+.inputform a {
+    text-decoration: none;
+    color: #0099FF;
+    font-weight: bold;
+}
+
+.inputform a:hover {
+    text-decoration: underline;
+    color: #6600CC;
+    font-weight: bold;
+}
+
+
+/* Tabular data style */
+
+.listform table {
+    margin-top: 5px;
+    border: 1px solid #999999;
+    width: 100%;
+}
+
+.listform td {
+    padding: 5px;
+    border-left: 1px solid #999999;
+    border-bottom: 1px dashed #999999;
+    vertical-align: top;
+}
+
+.listform .tblhead {
+    font-weight: bold;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+
+.listform .tblhov:hover {
+    background: #FFFACD;
+}
+
+.listform a {
+    text-decoration: none;
+    color: #0099FF;
+    font-weight: bold;
+    border: 0;
+}
+
+.listform a:hover {
+    text-decoration: underline;
+    color: #6600CC;
+    font-weight: bold;
+    border: 0;
+}
+
+.listform img {
+    border: 0;
+    padding-left: 3px;
+}
+
+.listform li {
+    margin-left: 10px;
+    padding: 5px 2px;
+    list-style: none;
+    border-left: 1px dotted #CCC;
+}
+
+button.multi_submit {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.paging {
+    margin: 10px 0;
+}
+
+.paging #pageresult {
+    margin: 2px 0;
+}
+
+.paging a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+    padding: 0 5px;
+    border: 0;
+}
+
+.paging a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #CCC;
+}
+
+.tb {
+    padding: 2px 5px;
+    border: 1px solid #999;
+    margin: 2px 0;
+}
+
+.bt {
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.bt:hover {
+    background-color: #FFF;
+    border: 1px solid #CC0000;
+    cursor: pointer;
+}
+
+table .noborder tbody tr td {
+    border: none;
+}
+
+tr.border_btm td:not(:first-child) {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+table .tbl_perhitungan_njop tbody tr td {
+    /*vertical-align: middle;*/
+    border: 1px solid #e5e5e5 !important;
+}
+
+
+/*table .tbl_perhitungan_njop tbody tr td:first-child{
+vertical-align: middle;
+}*/
+
+.wrap_paper {
+    margin: 10px 25px;
+    background-color: white;
+    border: 1px solid #DDDDDC;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.surat {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.berfungsi {
+    margin-left: 130px;
+}
+
+.dinas {
+    margin-left: 321px;
+    margin-top: 13px;
+}
+
+
+/* .status{
+margin-left:376px;
+}*/
+
+.gambar {
+    margin-top: 10px;
+    /*margin-left: 115px;*/
+    width: 60px;
+}
+
+. {
+    margin-left: 116px;
+}
+
+.lebar_kolom_besar {
+    width: 300px;
+}
+
+.lebar_kolom_kecil {
+    width: 150px;
+}
+
+.fsize {
+    font-size: 12px;
+}
+
+@media (max-width:1100px) {
+    .surat {
+        margin-left: 90px;
+    }
+    .berfungsi {
+        margin-left: -90px;
+    }
+    .dinas {
+        margin-left: 300px;
+    }
+    .status {
+        margin-left: 350px;
+    }
+}
+
+.ket_luas_njop {
+    font-size: 8px;
+    border: 1px solid gray;
+    padding: 2px;
+    width: 90px;
+    z-index: 2;
+    margin-bottom: -5px;
+}
+
+table .tbl_perhitungan_njop tbody tr td p,
+table .tbl_perhitungan_njop tbody tr td p b {
+    line-height: 10px;
+}
+
+.pad_btm_20 {
+    padding-bottom: 20px;
+}
+
+.ket_njop {
+    text-align: right;
+    font-size: 10px;
+    padding: 2px;
+    border: 1px solid #e5e5e5;
+    width: 117px;
+    margin-bottom: -23px;
+    position: relative;
+    z-index: 2;
+    top: 13px;
+    right: -59px;
+    margin-right: 31px;
+}
+
+.kop_surat td {
+    text-align: center;
+}
+
+.kop_surat td:first-child p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.kop_surat td:nth-child(2) {
+    vertical-align: middle;
+}
+
+.kop_surat td:nth-child(2) p {
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.kop_surat td:nth-child(2) h1 {
+    color: #000;
+    font-weight: bold;
+}
+
+tr .tanda_tangan td p {
+    line-height: 8px;
+}

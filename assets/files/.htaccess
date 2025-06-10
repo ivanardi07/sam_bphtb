@@ -1,0 +1,9 @@
+# first deny all files
+<Files *>
+deny from all
+</Files>
+
+# then allow all image files
+<FilesMatch "(?i)\.(jpeg|png|pdf|jpg|docx)$">
+  allow from all
+</FilesMatch>

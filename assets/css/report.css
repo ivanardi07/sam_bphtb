@@ -1,0 +1,300 @@
+/* report.css @ mdpadmin */
+#report{
+    margin : 0px auto;
+    width  : 100%;
+}
+
+.formreport{
+	margin      : 0 auto;
+	width       : 100% !important;
+	text-align  : left;
+	display     : block;
+	background-color : #eee;
+}
+.formtitle{
+	background  : url(../../themes/images/bg_report_title.gif) repeat-x;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size   : 14px;
+    font-weight : bold;
+    color       : #003366;
+	padding     : 7px 10px;
+}
+.formcontent { padding : 10px 0; width   : 100%; }
+.formtable table {}
+.formtable td { padding : 2px 4px; }
+.formlabel{
+	font-size      : 12px;
+	line-height    : normal;
+	font-weight    : bold;
+	padding-right  : 0.2em;
+}
+
+.report_box {
+   border           : 1px solid #CCC;
+}
+
+.report_box_title {	
+	background  : url(../themes/images/bg_report_title.gif) repeat-x;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size   : 14px;
+    font-weight : bold;
+    color       : #003366;	padding: 7px 10px;
+}
+
+.report_box_c {	
+	padding          : 25px 10px;
+}
+
+.report_box_c td { padding: 2px 5px; }
+
+.report_paper{  
+	margin  : 0px auto;
+	padding : 25px 0px;
+	width   : 815px;
+	height  : 395px;
+	display : block;
+	background  : url(../../themes/images/paper.png) top left no-repeat;
+}
+
+.report_paper_c{
+   margin  : 75px auto;
+   width   : 700px;
+   display : block;
+}
+
+.report_paper_c td { padding: 6px 4px; }
+
+.report_paper_c td.fields_label { 
+	font : 14px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.report_title{
+   color       : #660000;
+   font-weight : bold;
+   font-size   : 14px;
+}
+
+.report_label_form{
+   color       : #333333;
+   font-weight : bold;
+}
+
+.report_table_form{
+   text-decoration: none;
+   text-align : left; 
+}
+
+.report_linebottom {
+	border-bottom : 1px solid #ccc;
+	padding: 5px;
+}
+
+.report_table_header{
+    width : 100%;
+	border-collapse : collapse;
+}
+
+.report_table_header td.field_header{
+	font-weight : bold;
+}
+
+.report_table_header td.text_header{
+	font-weight : bold;
+	color : #660000;
+}
+
+.report_table_header span.text_header{
+	font-weight : bold;
+	color : #660000;
+}
+
+.report_table_header td.linebottom{
+   border-bottom : 1px solid #ddd; 
+}
+
+.report_table_header a {	
+	text-decoration: none;
+	font-weight : bold;
+	color : #660000;
+}
+
+.report_table_header a:hover {	
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.report_table {	
+	margin : 5px 0;
+	border-collapse : collapse;
+}
+
+.report_table td {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+.report_table a {	
+	text-decoration: none;
+	color : #0099FF;
+	font-weight : bold;
+	color : #003333;
+}
+
+.report_table a:hover {	
+	text-decoration: underline;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.report_message {
+    padding          : 10px 10px;
+	font-size        : 12px;
+    font-weight      : bold;
+	color            : #FFFF33;
+	background-color : #666666;
+}
+
+.headreport {
+	background: url(../../themes/images/bg_report_title2.gif) repeat-x;
+	text-transform : uppercase;
+	color: #FFF;
+	padding: 5px;
+	font-weight:bold;
+	border: 1px solid #CCC;
+}
+
+.report_pager{	
+	padding     : 5px 5px;
+	border      : 1px solid #ccc;
+    font-size   : 12px;
+    font-weight : bold;
+	color       : #006699;
+	background-color : #efefef;
+}
+
+.report_pager .report_pagertext{
+    float       : right;
+	height      : 22px;
+	padding     : 5px 0px 0px 0px;
+}
+
+.report_pager .report_pagerform{
+	float            : right;
+	padding          : 0px 0px 5px 0px;
+	height           : 22px;
+	overflow         : hidden;
+}
+
+.report_table .summary{
+	border-style : none;
+	padding      : 5px;
+	font-weight  : bold;
+}
+
+.report_table .total {
+	border  : 1px solid #ccc;
+	padding : 5px;
+	font-weight : bold;
+    color   : #ff3300;
+}
+
+.report_pager a {	
+	text-decoration  : none;
+	background-color : #FFF;
+	padding       : 4px 10px;
+	border        : 1px solid #999;
+	color         : #0099FF;
+}
+
+.report_pager a:hover{
+	text-decoration: none;
+	color: #336699;
+	background-color: #EEE;
+	border: 1px solid #FF0000;
+}
+.report_pager b {
+	text-decoration: none;
+	color: #ffffff;
+	padding : 4px 10px;
+	background-color: #660000;
+	border  : 1px solid #999;
+}
+
+.report_table .td_odd {
+    background-color : #eee;
+	border  : 1px solid #ccc;
+    font-size      : 12px;
+	vertical-align : top;
+	padding        : 4px;
+	font-weight    : normal;
+}
+
+.report_table .td_even{
+    background-color : #f4f4f4;
+	border  : 1px solid #ccc;
+    font-size : 12px;
+	vertical-align: top;
+	padding     : 4px;
+	font-weight : normal;
+}
+.report_table .td_odd_small {
+    background-color : #eee;
+	border  : 1px solid #ccc;
+	font-size : 11px;
+	vertical-align: top;
+	padding : 4px;
+	font-weight : normal;
+}
+.report_table .td_even_small{
+    background-color : #f4f4f4;
+	border  : 1px solid #ccc;
+    font-size : 11px;
+	vertical-align: top;
+    padding   : 4px;
+	font-weight : normal;
+}
+
+/*-- All CSS Required --*/
+.btnGo { 
+    font-size     : 11px;
+    font-weight   : bold;
+	padding: 1px 5px;
+	background: url(../../themes/images/bg_button.gif) repeat-x;
+	border: 2px solid #999;
+	cursor: pointer;
+}
+
+.btnExcel { 
+	padding       : 1px 5px 1px 25px;
+	height        : 28px !important;
+    font-size     : 11px;
+    font-weight   : bold;
+	background    : url(../../themes/images/report/excel.gif) #ffffff no-repeat;
+	border        : 1px solid #999;
+	cursor        : pointer;
+}
+
+.btnProses { 
+    font-size     : 11px;
+    font-weight   : bold;
+	color         : #2D75AC;
+	padding-left  : 2px;
+	padding-right : 2px;
+}
+.btnBack{
+    font-size     : 11px;
+    font-weight   : bold;
+	color         : #2D75AC;
+	padding-left  : 2px;
+	padding-right : 2px;
+}
+.btnSubmit{
+    font-size     : 11px;
+    font-weight   : bold;
+	padding: 1px 5px;
+	background: url(../../themes/images/bg_button.gif) repeat-x;;
+	border: 2px solid #999;
+	cursor: pointer;
+}
